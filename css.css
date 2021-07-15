@@ -12,9 +12,25 @@ body{
 	height: 800px;
 	object-fit: cover;
 }
+.contain{
+
+	text-align: center;
+	color: #985adb;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 5em;
+	font-weight: bold;
+}
 .wrapper{
 	display: flex;
 	flex-direction: row;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
 }
 .nav{
 	width: 100%;
@@ -28,11 +44,16 @@ body{
 	top: 0;
 	flex-direction: row;
 }
+.main{
+	float: left;
+}
 .logo{
 	color: #1e0a33;
 	width: 30%;
 	padding-bottom: 1em;
 	font-weight: bold;
+	text-align: left;
+	position: relative;
 }
 .navbar-items {
 	width: 70%;
@@ -79,7 +100,6 @@ figure{
 	width: 300px;
 }
 img{
-	width: 100%;
 	border: 1px solid red;
 	object-fit: cover;
 }
