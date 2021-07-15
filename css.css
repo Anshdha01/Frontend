@@ -2,13 +2,10 @@
 	box-sizing: border-box;
 }
 body{
-
-
 	flex-direction: column;
 	background-color: #703ba8;
 	text-align: center;
 	align-items: center;
-
 }
 .hero-image{
 	width: 80%;
@@ -32,7 +29,7 @@ body{
 	flex-direction: row;
 }
 .logo{
-	color: #653499;
+	color: #1e0a33;
 	width: 30%;
 	padding-bottom: 1em;
 	font-weight: bold;
@@ -47,6 +44,12 @@ body{
 	padding-right: 20px;
 	color: white;
 	text-decoration: none;
+}
+#aboutus{
+	background-image: url("sixth.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+
 }
 #leftbox{
 	background-color: #1e0a33;
@@ -77,5 +80,19 @@ figure{
 }
 img{
 	width: 100%;
+	border: 1px solid red;
 	object-fit: cover;
+}
+.footer{
+	width: 100%;
+	padding: 1em;
+	margin: 0;
+	display: flex;
+	bottom: 0;
+	flex-direction: column;
+	align-items: center;
+	background: yellow;
+	color: red;
+
+
 }
